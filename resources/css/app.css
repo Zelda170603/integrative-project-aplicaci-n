@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark .dark-background-text{
+    background-image: linear-gradient(to top right, #6ab7ff, #4fd1c5, #2563eb);
+}
+
+.background-text {
+    background-image: linear-gradient(to top right, #2984da,  #2563eb , #0a3563);
+}
+
+.no-scrollbar {
+    scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+ 
